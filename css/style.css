@@ -1,77 +1,56 @@
-/* header {
-    display: inline;
-    margin: 0 auto;    
-    width: 75%;
-    
+header {
+   width: 1150px;
+   height: 100px;
 }
 .firstDiv {
+    position: fixed;
   display: inline-block;
-  margin-top: 2em;
+  margin-bottom: 3em;
   
 }
-header div img {
-    transform: translateY(50%);
+.test{
+    display: inline-block;
+
+    top: 2px;
+    margin-right: 2px;
 }
+
 h1 {
-    position: absolute;
-    margin-left: 15px;   
+    margin-bottom: 4em;
+    top: 3px;
     display: inline;
-    margin-top: 0;
-    transform: translateY(50%);
+    margin-top: 8;
+    padding-bottom: 2ch;
    
 }
 
 h3 {
-    position: absolute;
     margin-left: 40px; 
     margin-top: 0;
     margin-right: 40px;   
-    transform: translateY(50%);
     
-}*/
+}
 
 
-/* .secondDiv {
-    position: absolute;
+
+
+ .secondDiv {
+    position: relative;
     float: right;
     right: 0;
     top: 20px;
-}  */  
+}  
 
-
-  /* body {
-    display: grid ;
-    grid-template-rows: 2fr 5fr 2fr;
-    gap:5px ;
-
+hr.line {
+    margin: 30px 150px;  
+     background: url(../img/hr-img.png);
+     height: 20px;
+     width: 900px;
+  }
+  
+main {
+    position: relative;
 }
-header {
-    display: grid;
-    grid-template-columns: 2fr 1fr ;
-
-}
-header div .firstDiv {
-    display: grid;
-    grid-column: 1/2;
-}
-header div .firstDiv h1 {
-    display: grid;
-    
-}
-
-header div .secondDiv {
-    display: grid;
-    grid-column: 2/-1;
-}  */
-
-
-/* header {
-    display: flex; 
-    width: 100%;   
-    padding:15px;    
-    align-items: center;
-} */
-
     
 
 
